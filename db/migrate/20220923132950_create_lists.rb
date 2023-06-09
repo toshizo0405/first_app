@@ -4,7 +4,7 @@ class CreateLists < ActiveRecord::Migration[6.1]
 
       t.string :title
       t.string :body
-
+      t.string :author
       t.timestamps
     end
   end
